@@ -1,1 +1,0 @@
-var divContents = document.get
