@@ -8,6 +8,7 @@ var currentQuiz = quizs[0];
 
 $(document).ready(function() {
     shuffle(quizs);
+    currentQuiz = quizs[0];
     fetch();
     
     $(".quiz").on("click", function() {
